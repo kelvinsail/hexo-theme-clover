@@ -15,7 +15,8 @@
   %>
   <% _.forEach(groupPosts, function (group) { %>
     <section class="archive-category">
-      <h1 class="title"><%= group.year %></h1>
+      <h1 class="title"><%= group.year %>&nbsp;&nbsp;&nbsp;&nbsp; <sub><%= group.posts.length %> </sub></h1>
+
       <ul class="menu">
         <% _.forEach(group.posts, function(item) { %>
           <li>

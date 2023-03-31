@@ -6,9 +6,10 @@
       font-size: 45px;
       line-height: 53px;
       color: #333;
-      font-family: MaturaScriptCapitals;
+      font-family: PingFang-Medium;
       &:hover {
         opacity: .7;
+        color: yellowgreen
       }
     }
   }
@@ -16,9 +17,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    // justify-content: space-around;
     > .menu {
       // min-width: 320px;
-      text-align: right;
+      // text-align: right;
+      text-align: left;
     }
     @media screen and (max-width: 600px){
       flex-direction: column;
@@ -29,11 +32,14 @@
     }
   }
   .nav-menu {
-    font-family: BebasNeue;
+    font-family: PingFang-Medium;
     font-size: 20px;
     line-height: 24px;
     color: #333;
     margin-left: 24px;
+    &:hover {
+      color: yellowgreen;
+    }
     &:first-child {
       margin-left: 0;
     }

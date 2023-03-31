@@ -1,6 +1,6 @@
 # Custom nav
 nav:
-  title: "Clover Tuan"
+  title: "yifan'Blog"
 
 favicon: ""
 
@@ -11,15 +11,15 @@ background:
 
 # Social media
 social:
-  Dribbble: https://dribbble.com/clovertuan
-  Behance: https://www.behance.net/clovertuan
-  Lofter: http://clovertuan.lofter.com/
-  Instagram: https://www.instagram.com/clovertuan/
-  GitHub: https://github.com/cloverTuan
+  #Dribbble: https://dribbble.com/clovertuan
+  #Behance: https://www.behance.net/clovertuan
+  #Lofter: http://clovertuan.lofter.com/
+  #Instagram: https://www.instagram.com/clovertuan/
+  #GitHub: https://github.com/cloverTuan
 
 # Custom footer
-mail: d.guangying@foxmail.com
-copyright: All rights reserved @Clover Tuan
+mail: kelvinsail@163.com
+copyright: All rights reserved @yifan
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
 # Two kinds of card style: 'project-card', 'article-card',
@@ -61,3 +61,9 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+# Beian ICP and gongan information for Chinese users.
+beian:
+  enable: false
+  icp: 粤ICP备123123123号
+
