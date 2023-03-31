@@ -112,8 +112,8 @@ $brand-color: #f0534e;
     }
 
     table {
-      margin: 20px 0;
-      width: 100%;
+      margin: 10px;
+      //width: 100%;
       border-collapse: collapse;
       border-spacing: 0;
       border: 1px solid #ddd;
@@ -125,7 +125,7 @@ $brand-color: #f0534e;
       }
       caption, th, td {
         padding: 5px;
-        text-align: center;
+        text-align: left;
         vertical-align: middle;
         font-weight: normal;
       }
@@ -141,6 +141,12 @@ $brand-color: #f0534e;
       }
 
       td { border-bottom-width: 1px; }
+      .gutter {
+        width: 10;
+      }
+      .code {
+        width: 100%;
+      }
     }
     
     * {
